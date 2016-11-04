@@ -1,0 +1,133 @@
+<anitable>
+	
+	<anime>
+		<title>Aldnoah.Zero</title>
+		<genre1>Action, Mecha, Sci-Fi</genre1>
+		<genre2></genre2>
+		<length>24</length>
+		<source>Original</source>
+		<link>pages/aldnoah.php</link>
+		<image>images/aldnoah.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/7/60263.jpg</url2>
+		<num>1</num>
+	</anime>
+
+	<anime>
+		<title>Code Geass</title>
+		<genre1>Action, Drama, Mecha,</genre1>
+		<genre2>Sci-Fi, Super Power, Military</genre2>
+		<length>50</length>
+		<source>Original</source>
+		<link>pages/code_geass.php</link>
+		<image>images/geass.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/4/9391.jpg</url2>
+		<num>2</num>
+	</anime>
+
+	<anime>
+		<title>Fairy Tail</title>
+		<genre1>Action, Adventure, Comedy,</genre1>
+		<genre2>Fantasy, Magic, Shounen</genre2>
+		<length>300</length>
+		<source>Manga</source>
+		<link>pages/fairy_tail.php</link>
+		<image>images/ft.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/4/74164l.jpg</url2>
+		<num>3</num>
+	</anime>
+
+	<anime>
+		<title>Fate/Stay Night: Unlimited Blade Works</title>
+		<genre1>Action, Fantasy, Magic,</genre1>
+		<genre2>Shounen, Supernatural</genre2>
+		<length>24</length>
+		<source>Visual Novel</source>
+		<link>pages/fate.php</link>
+		<image>images/fate.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/12/67333.jpg</url2>
+		<num>4</num>
+	</anime>
+
+	<anime>
+		<title>Hataraku Maou-Sama</title>
+		<genre1>Comedy, Demons, Fantasy,</genre1>
+		<genre2>Romance, Shounen</genre2>
+		<length>12</length>
+		<source>Light Novel</source>
+		<link>pages/maou.php</link>
+		<image>images/maou.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/3/50177.jpg</url2>
+		<num>5</num>
+	</anime>
+
+	<anime>
+		<title>Nagi no Asukara</title>
+		<genre1>Drama, Fantasy, Romance</genre1>
+		<genre2></genre2>
+		<length>26</length>
+		<source>Original</source>
+		<link>pages/nagi_no_asukara.php</link>
+		<image>images/nagi.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/5/59353.jpg</url2>
+		<num>6</num>
+	</anime>
+	
+	<anime>
+		<title>Sakurasou no Pet na Kanojo</title>
+		<genre1>Comedy, Drama, Romance,</genre1>
+		<genre2>School, Slice of Life</genre2>
+		<length>24</length>
+		<source>Light Novel</source>
+		<link>pages/sakurasou.php</link>
+		<image>images/sakurasou.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/4/43643.jpg</url2>
+		<num>7</num>
+	</anime>
+	
+	<anime>
+		<title>Shokugeki no Souma</title>
+		<genre1>Ecchi, School, Shounen</genre1>
+		<genre2></genre2>
+		<length>24</length>
+		<source>Manga</source>
+		<link>pages/shokugeki.php</link>
+		<image>images/shokugeki.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/3/72943.jpg</url2>
+		<num>8</num>
+	</anime>
+	
+	<anime>
+		<title>To Aru Majutsu no Index</title>
+		<genre1>Action, Magic, Sci-Fi, Super Power</genre1>
+		<genre2></genre2>
+		<length>48</length>
+		<source>Light Novel</source>
+		<link>pages/majutsu.php</link>
+		<image>images/majutsu.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/2/75533.jpg</url2>
+		<num>9</num>
+	</anime>
+
+	<anime>
+		<title>Yahari Ore no Seishun Love Comedy wa Machigatteiru</title>
+		<genre1>Comedy, Romance, School</genre1>
+		<genre2></genre2>
+		<length>24</length>
+		<source>Light Novel</source>
+		<link>pages/yahari.php</link>
+		<image>images/yahari.jpg</image>
+		<url1>http://cdn.myanimelist.net/</url1>
+		<url2>images/anime/11/75376.jpg</url2>
+		<num>10</num>
+	</anime>
+
+</anitable>

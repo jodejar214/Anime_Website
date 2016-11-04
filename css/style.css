@@ -1,0 +1,291 @@
+/**********styling that applies to all pages**********/
+
+/*the title at the top of each page*/
+#header {
+  height: 75px;
+  background-color: #efefef;
+  color: #4c6c73;;
+  margin: 0px;
+  padding: 0px;
+}
+
+#title {
+  height: 75px;
+  width: 55%;
+  padding-top: 12px;
+  padding-left: 5px;
+  font-size: 13px;
+  text-align: center;
+  float: left;
+}
+
+#links {
+  padding-top: 15px;
+  text-align: center;
+}
+
+#content {
+  top: 75px;
+  bottom: 0px;
+  right: 0px;
+  left: 0px;
+  position: absolute;
+  overflow-y: scroll;
+}
+
+/*header styles*/
+h1 {
+  margin: 0px;
+  padding: 10px;
+}
+
+/*body of pages*/
+body {
+  background-color: #a7e4f2;
+  margin: 0;
+  margin-bottom: 25px;
+}
+
+/*table, table headers, and table data*/
+table, th, td {
+   text-align: center;
+   border: 1px solid black;
+}
+
+/*only for table data and headers*/
+th, td{
+  padding: 10px;
+}
+
+/*paragraphs*/
+p {
+	font-size: 18px;
+	margin-left: 30px;
+	margin-right: 30px;
+  color: #2a3c40;
+}
+
+/*link definitions*/
+a {
+  text-decoration: none;
+}
+
+/**********styling that applies to index.html only**********/
+
+/*the divs for the table, list, and intro sections*/
+#main_tableDiv, #list, #intro, #sform, #rform {
+  background-color: #80b4bf;
+  display: table;
+  padding: 10px;
+  border: 10px ridge #4c6c73;
+  margin: auto;
+}
+
+#intro{
+  width: 90%;
+}
+
+/*the table of anime information*/
+#anitable {
+  border: 1px solid black;
+  margin-left: 30px;
+  margin-right: 30px;
+  font-size: 18px;
+}
+
+/*the images in the table*/
+.anime_img1,.anime_img2,.anime_img3,.anime_img4,.anime_img5,
+.anime_img6,.anime_img7,.anime_img8,.anime_img9,.anime_img10 {
+  display: none;
+}
+
+/*the row of the table headers*/
+.main_header {
+  background-color: #2a3c40;
+  color: #bdf2ed;
+  border: 1px solid black;
+}
+
+/*the cells of the table body*/
+.tbody {
+  color: black;
+  background-color: #bdf2ed;
+  border: 1px solid black;
+}
+
+/*the items in the titles column of the table*/
+.anititle{
+  font-weight: bold;
+}
+
+/*the unordered list*/
+ul {
+	font-size: 18px;
+  font-weight: bold;
+  float: left;
+  margin-top: 0px;
+  margin-right: 20px;
+}
+
+/*link within paragraph*/
+.in_text{
+  font-weight: bold;
+}
+
+/*the images in the list div*/
+.limg{
+  width: 175px;
+  height: 275px;
+  margin-right: 10px;
+}
+
+.tlinks{
+  font-size: 16px;
+}
+
+/*make the image and links in list div like table cells*/
+.cell{
+  display:table-cell;
+}
+
+/************form and results styling*******/
+form{
+  margin-left: 50px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.top {
+  bottom: 30px;
+  font-weight: bold;
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+/*section header for form divs*/
+.form_header{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/*the message on the results page after submission*/
+#submission_msg{
+  width: 60%;
+  margin: auto;
+}
+
+/**********styling that applies to subpages only**********/
+
+/*the character table in the subpages*/
+#char_table {
+   margin-left: auto; 
+   margin-right: auto;
+}
+
+/*the titles of the character section of each of the subpages*/
+#char_title {
+   text-align: center;
+   font-size: 30px;
+   margin: 0px;
+   padding-bottom: 10px;
+   color: #2a3c40;
+}
+
+/*the divs of the summary and the table sections*/
+#sum, #tableDiv, #submission_msg {
+  background-color: #80b4bf;
+  text-align: center;
+  border: 10px ridge #4c6c73;
+  padding: 5px;
+  margin: auto;
+}
+
+#sum{
+  width: 90%;
+}
+
+/*only the div for the table section*/
+#tableDiv{
+  display: table;
+  margin: auto;
+  padding: 30px;
+  padding-top: 15px;
+}
+
+/*table headers*/
+.header {
+  font-size: 18px;
+  background-color: #2a3c40;
+  color: #bdf2ed;
+}
+
+/*the row containing the pictures of the characters*/
+.charpics {
+  background-color: #bdf2ed;
+}
+
+/*************navigation bar******************/
+#links ul {
+  background: #4c6c73; 
+  box-shadow: 0px 0px 9px rgba(0,0,0,0.15);
+  padding: 0 10px;
+  border-radius: 10px;  
+  list-style: none;
+  position: relative;
+  display: inline;
+}
+
+#links ul li:hover > ul{
+  display: block;
+  z-index: 1;
+}
+
+#links ul li {
+  float: left;
+}
+
+#links ul li:hover {
+  background: #4b545f;
+}
+
+#links ul li:hover a {
+  color: #fff;
+}
+
+#links ul li a {
+  display: block; 
+  padding: 10px 20px;
+  color: #efefef; 
+  text-decoration: none;
+}
+
+#links ul ul {
+  background: #5f6975; 
+  border-radius: 0px; 
+  padding: 0;
+  position: absolute; 
+  top: 100%;
+  display: none;
+}
+
+#links ul ul li {
+  float: none; 
+  border-top: 1px solid #6b727c;
+  border-bottom: 1px solid #575f6a;
+  position: relative;
+}
+
+#links ul ul li a {
+  padding: 10px 20px;
+  color: #fff;
+} 
+
+#links ul ul li a:hover {
+  background: #4b545f;
+}
+
+.link_table{
+  margin: 0 auto;
+  display: table;
+  padding: 0px;
+}
